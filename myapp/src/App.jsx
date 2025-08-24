@@ -15,11 +15,11 @@ import Blog5 from "./blog_posts/blogpost5.jsx";
 
 function App() {
   const images = [
-    { src: "/src/assets/corolla.jpg", caption: "Best Budget Cars for First-Time Buyers in Nigeria", route: "/blog1" },
-    { src: "/src/assets/usedcar.jpg", caption: "How to Check a Used Car Before Buying – A Complete Guide", route: "/blog2" },
-    { src: "/src/assets/tesla.jpg", caption: "Electric Vehicles, what you need to Know!", route: "/blog3" },
-    { src: "/src/assets/picture7.jpg", caption: "How to Improve Your Car’s Resale Value with Simple Upgrades", route: "/blog4" },
-    { src: "/src/assets/picture9.jpg", caption: "Top 10 Car Maintenance Tips Every Owner Should Know", route: "/blog5" },
+    { src: "/corolla.jpg", caption: "Best Budget Cars for First-Time Buyers in Nigeria", route: "/blog1" },
+    { src: "/usedcar.jpg", caption: "How to Check a Used Car Before Buying – A Complete Guide", route: "/blog2" },
+    { src: "/tesla.jpg", caption: "Electric Vehicles, what you need to Know!", route: "/blog3" },
+    { src: "/picture7.jpg", caption: "How to Improve Your Car’s Resale Value with Simple Upgrades", route: "/blog4" },
+    { src: "/picture9.jpg", caption: "Top 10 Car Maintenance Tips Every Owner Should Know", route: "/blog5" },
   ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
